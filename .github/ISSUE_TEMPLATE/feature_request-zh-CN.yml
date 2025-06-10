@@ -1,0 +1,29 @@
+name: "✨ 特性请求"
+description: "建议一个新的特性或改进"
+labels: ["feature"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您提出特性请求！请尽可能详细地填写以下信息，以便我们更好地理解您的想法。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "特性描述"
+      description: "请清晰简洁地描述您想要添加的特性。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: "建议的解决方案"
+      description: "提供一个例子，说明您将如何使用这个新特性。"
+
+  - type: textarea
+    id: extra-context
+    attributes:
+      label: "补充说明"
+      description: "任何其他可能有助于我们理解您的特性请求的信息。"
