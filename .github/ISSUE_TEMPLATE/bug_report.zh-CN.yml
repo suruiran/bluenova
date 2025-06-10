@@ -40,8 +40,8 @@ body:
     id: environment
     attributes:
       label: "环境"
-      description: "请提供您的操作系统、浏览器版本等信息。"
-      placeholder: "例如：Windows 10, Chrome 88"
+      description: "请提供您的操作系统。"
+      placeholder: "例如：Windows 10"
 
   - type: textarea
     id: extra-context
